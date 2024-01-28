@@ -70,4 +70,5 @@ The steps involved in the implementation are:
 # Results
 
 1. Detecting Intruder (Bird)
+
 ![image](https://github.com/AkhilJx/Intrusion-Detection-System-Using-Deep-Convolutional-Neural-Network-and-Twilio/assets/78065413/94c967ee-7eb2-483d-9a7f-c4be7a28f1b4)
