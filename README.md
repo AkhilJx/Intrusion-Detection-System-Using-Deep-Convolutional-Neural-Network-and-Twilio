@@ -36,6 +36,7 @@ Hence, we would like to develop a system that detects the presence of intruder/i
 ![image](https://github.com/AkhilJx/Intrusion-Detection-System-Using-Deep-Convolutional-Neural-Network-and-Twilio/assets/78065413/dd373666-bc82-4241-b32e-976e7af60386)
 ![image](https://github.com/AkhilJx/Intrusion-Detection-System-Using-Deep-Convolutional-Neural-Network-and-Twilio/assets/78065413/a9ae4959-6db2-4bed-8d0d-56219a90e9b2)
 
+![image](https://github.com/AkhilJx/Intrusion-Detection-System-Using-Deep-Convolutional-Neural-Network-and-Twilio/assets/78065413/5baab8ee-f4bb-4108-a31c-c126feca6350)
 ![image](https://github.com/AkhilJx/Intrusion-Detection-System-Using-Deep-Convolutional-Neural-Network-and-Twilio/assets/78065413/b72b87c4-a8c2-4c5c-a94d-ec9db3de3514)
 
 
