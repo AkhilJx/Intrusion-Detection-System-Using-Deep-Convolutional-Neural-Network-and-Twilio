@@ -29,9 +29,3 @@ The steps involved in the Training part are as follows:
 
 4.Training and Model Building: * In the project we make use of CNN algorithm for model building Since CNN algorithm work fine with image files.  
                                * So, we make use of YoloV3 method in combination with darknet to build the model.   
-![image](https://github.com/AkhilJx/Intrusion-Detection-System-Using-Deep-Convolutional-Neural-Network-and-Twilio/assets/78065413/1d8273b9-3a11-4d42-9f4f-039a5362f75e)
-
- 
-
-
-![image](https://github.com/AkhilJx/Intrusion-Detection-System-Using-Deep-Convolutional-Neural-Network-and-Twilio/assets/78065413/7c4f723a-5e97-4cfd-bcbc-5cc969a95a4c)
