@@ -82,7 +82,11 @@ This can be connected to a speaker or an amplifier to enhance the sound frequenc
 Finally, a CSV file is created to store all the log/history of the animal detected with names, accuracies, and timestamps as parameters. 
 Once the CSV file is created, we can fetch the details of animals detected within a timeline along with accuracies so that we can be aware of the frequency of intruder arrival and seasonal arrival of the intruder if any. 
 In this study, we have provided the user to choose from 3 timeline analyses namely date wise, month wise, and year wise statistics. 
-Based on the user selection, the user will get the details of the value counts of the intruder in the given timeline so that the user gets to know about the seasonal arrival of the intruder and the frequencies of their arrivals. 
+Based on the user selection, the user will get the details of the value counts of the intruder in the given timeline so that the user gets to know about the seasonal arrival of the intruder and the frequencies of their arrivals.
+
+We make use of Twilio.rest library for making the twilio api available for system to facilitate the sms sending. To make this facility available to the user, first we need to create a twilio account. For that we need to go to www.twilio.com and then click on the signup button. There we need to fill the required details like first name, last name, email id and password for the creation of the account. The interface for twilio account creation is as shown in figure below:
+![image](https://github.com/AkhilJx/Intrusion-Detection-System-Using-Deep-Convolutional-Neural-Network-and-Twilio/assets/78065413/5ac5ae9f-05bf-42ce-88ea-f487a8d79959)
+
 
 ![image](https://github.com/AkhilJx/Intrusion-Detection-System-Using-Deep-Convolutional-Neural-Network-and-Twilio/assets/78065413/1cec59c4-4316-477d-9927-7e5ee272c563)
 
