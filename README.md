@@ -32,6 +32,12 @@ Hence, we would like to develop a system that detects the presence of intruder/i
 14. Playsound: Used to play the sound upon the detection of animal/bird. This library can play only .wav and .mp3 formats.
 
 # Project Architecture
+
+![image](https://github.com/AkhilJx/Intrusion-Detection-System-Using-Deep-Convolutional-Neural-Network-and-Twilio/assets/78065413/dd373666-bc82-4241-b32e-976e7af60386)
+![image](https://github.com/AkhilJx/Intrusion-Detection-System-Using-Deep-Convolutional-Neural-Network-and-Twilio/assets/78065413/a9ae4959-6db2-4bed-8d0d-56219a90e9b2)
+![image](https://github.com/AkhilJx/Intrusion-Detection-System-Using-Deep-Convolutional-Neural-Network-and-Twilio/assets/78065413/54f594e1-26ff-49e5-b81a-c3ca7eb06746)
+
+
 The proposed system provided in this project also has two phases. 
          1. The Training phase where the images are trained to get a model 
          2. The Testing phase where the intruder is detected based on the trained model. 
