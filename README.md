@@ -29,7 +29,9 @@ Focuses on identifying inherent features of the objects present within an image.
 4.Training and Model Building: 
 In the project we make use of CNN algorithm for model building Since CNN algorithm work fine with image files. So, we make use of YoloV3 method in combination with darknet to build the model.   
 
+
 The steps involved in the Testing part are as follows:
+
 1.Image Acquisition: 
 The initial step involved in the testing part in which the real-world sample is recorded in its digital form using a digital camera. The input video is first converted into frames before giving to the CNN algorithm as CNN works well with images. This is done by reading the video frame by frame (by looping) using read fn in OpenCV. The image is captured, scanned, and converted into a manageable entity. This process is known as image acquisition.
 
@@ -38,4 +40,3 @@ OpenCV provides a function (cv2.dnn.blobFromImage) to facilitate image preproces
 
 3.Classification: 
 Here the detected intruder is identified and classified as birds or animals like a tiger, lion, etc. The blob created after pre-processing and feature extraction will be fed into the algorithm and the algorithm compares this blob with the model and based on that it predicts the detection of the intruder. i.e., Based on the similarities in the pixel value obtained after pre-processing and feature extraction with the respective pre-defined pixel value of the corresponding animal/ bird, it classifies the intruder as birds/animal.
-![image](https://github.com/AkhilJx/Intrusion-Detection-System-Using-Deep-Convolutional-Neural-Network-and-Twilio/assets/78065413/f7a9fc3a-e5b6-4fac-a8e0-3374339bd638)
