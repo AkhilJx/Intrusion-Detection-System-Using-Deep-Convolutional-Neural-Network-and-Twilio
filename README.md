@@ -85,7 +85,12 @@ In this study, we have provided the user to choose from 3 timeline analyses name
 Based on the user selection, the user will get the details of the value counts of the intruder in the given timeline so that the user gets to know about the seasonal arrival of the intruder and the frequencies of their arrivals.
 
 We make use of Twilio.rest library for making the twilio api available for system to facilitate the sms sending. To make this facility available to the user, first we need to create a twilio account. For that we need to go to www.twilio.com and then click on the signup button. There we need to fill the required details like first name, last name, email id and password for the creation of the account. The interface for twilio account creation is as shown in figure below:
+
 ![image](https://github.com/AkhilJx/Intrusion-Detection-System-Using-Deep-Convolutional-Neural-Network-and-Twilio/assets/78065413/5ac5ae9f-05bf-42ce-88ea-f487a8d79959)
+
+The account created will be a 30- day trial account which could be purchased later on. After creating the account, we should login to the account to see the user profile. Once logged in, we will get user credentials like Account SID (sid stands for String Identifier which is an unique key consisting of 34characer that is used to identify specific resources in the account), Authentication Token (An authentication token is a small piece of software that securely sends information about a user's identity across programmes and websites. Internet users can use an authentication token to access apps, services, websites, and application programming interfaces (APIs) without having to enter their login credentials each time they visit.), Phone Number associated with the account (the sender identification number) etc. These credentials are necessary for making the interaction between the twilio API and the program created. They should be mandatorily mentioned in the program for sending the sms to the user. The interface of twilio account is shown as follows:
+
+![image](https://github.com/AkhilJx/Intrusion-Detection-System-Using-Deep-Convolutional-Neural-Network-and-Twilio/assets/78065413/01b0ec07-d3f2-42da-a42f-95ff3112154e)
 
 
 ![image](https://github.com/AkhilJx/Intrusion-Detection-System-Using-Deep-Convolutional-Neural-Network-and-Twilio/assets/78065413/1cec59c4-4316-477d-9927-7e5ee272c563)
