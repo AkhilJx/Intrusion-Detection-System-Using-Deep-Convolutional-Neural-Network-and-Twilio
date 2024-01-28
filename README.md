@@ -55,3 +55,14 @@ Based on the user selection, the user will get the details of the value counts o
 
 ![image](https://github.com/AkhilJx/Intrusion-Detection-System-Using-Deep-Convolutional-Neural-Network-and-Twilio/assets/78065413/1cec59c4-4316-477d-9927-7e5ee272c563)
 
+# Project Implementation
+
+The steps involved in the implementation are:
+1. Collecting images of animals as a database which is used for training of the program.
+2. Based on the database, a model is being created for testing.
+3. The Image/video acquisition from the camera is done and is fed as input to the system.                                    
+4. Once input is fed to the system, the Conversion of video to frames is carried out. 
+5. We use the imread function to read the camera captured frame (image) if it is fetching video stored in a hard disk or cv2.videocapture() if the camera is directly connected to the computer. After this Preprocessing is done on that image/ frame. 
+6. After pre-processing of the camera captured image, a comparison of this frame with the model created is carried out. I.e., The system checks if matching is found or not.
+7. If matching is found, intimation to the concerned person about the animal is done. Else it continues from step 3.
+
