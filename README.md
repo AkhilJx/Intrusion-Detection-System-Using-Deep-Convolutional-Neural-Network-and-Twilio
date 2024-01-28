@@ -16,16 +16,9 @@ The proposed system provided in this project also has two phases.
 The steps involved in the Training part are as follows:
 
 1. Data collection:
-The images of various wild animals and birds whose presence is being noticed is collected from the google.
+The images of various wild animals and birds whose presence is being noticed is collected from the google. Later these data will be used for the training and model building of the project. 
 
-Later these data will be used for the training and model building of the project. 
-
-
-2.Data Pre-Processing: 
-For improvement of the image data. 
-                       
-Suppresses the unwanted distortions or enhances some image features.
-
+2.Data Pre-Processing: For improvement of the image data. Suppresses the unwanted distortions or enhances some image features.
 There are basically 2 processes involved in pre-processing: 
                        
 (i). Mean Subtraction: Used to help combat illumination changes in the input images in our dataset. Used to make sure all dataset images are in the same size before feeding to the algorithm.
