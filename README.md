@@ -23,10 +23,10 @@ There are basically 2 processes involved in pre-processing:
 (i). Mean Subtraction: Used to help combat illumination changes in the input images in our dataset. Used to make sure all dataset images are in the same size before feeding to the algorithm.
 (ii).Data Scaling or normalization: for making model data in a standard format so that the training is improved, accurate, and faster.
 
-3.Feature Extraction: 
+3. Feature Extraction: 
 Focuses on identifying inherent features of the objects present within an image. These inherited features are then converted into pixel values later during training and then these pixel values are compared with the image pixel value (input) and based on this comparison classification is performed.
 
-4.Training and Model Building: 
+4. Training and Model Building: 
 In the project we make use of CNN algorithm for model building Since CNN algorithm work fine with image files. So, we make use of YoloV3 method in combination with darknet to build the model.   
 
 
@@ -41,3 +41,15 @@ OpenCV provides a function (cv2.dnn.blobFromImage) to facilitate image preproces
 
 3. Classification: 
 Here the detected intruder is identified and classified as birds or animals like a tiger, lion, etc. The blob created after pre-processing and feature extraction will be fed into the algorithm and the algorithm compares this blob with the model and based on that it predicts the detection of the intruder. i.e., Based on the similarities in the pixel value obtained after pre-processing and feature extraction with the respective pre-defined pixel value of the corresponding animal/ bird, it classifies the intruder as birds/animal.
+
+4. Intimation, playing sound, and log file creation: 
+The final step in the testing part, where the user (farmers or forest officers) gets the alert/ threat about the intruder. 
+The intimation to the authorities is done through Twilio messenger where the alert will be sent in the form of SMS with the aid of the internet. 
+Similarly, when an intruder is detected, the system plays a sound (the sound of some creatures which the intruders are generally scared of ) to keep the intruder away. 
+In this study, we took the sound of a tiger for animal detection whereas the sound of a hawk for bird detection. 
+This can be connected to a speaker or an amplifier to enhance the sound frequency if required. 
+Finally, a CSV file is created to store all the log/history of the animal detected with names, accuracies, and timestamps as parameters. 
+Once the CSV file is created, we can fetch the details of animals detected within a timeline along with accuracies so that we can be aware of the frequency of intruder arrival and seasonal arrival of the intruder if any. 
+In this study, we have provided the user to choose from 3 timeline analyses namely date wise, month wise, and year wise statistics. 
+Based on the user selection, the user will get the details of the value counts of the intruder in the given timeline so that the user gets to know about the seasonal arrival of the intruder and the frequencies of their arrivals. 
+
