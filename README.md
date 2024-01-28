@@ -69,6 +69,18 @@ The steps involved in the implementation are:
 
 # Results
 
-1. Detecting Intruder (Bird)
+1. Detecting Intruder (Bird) with accuracy and timestamp
 
 ![image](https://github.com/AkhilJx/Intrusion-Detection-System-Using-Deep-Convolutional-Neural-Network-and-Twilio/assets/78065413/94c967ee-7eb2-483d-9a7f-c4be7a28f1b4)
+
+2. Detecting Intruder ( Animal - Giraffe ) with accuracy and timestamp
+
+![image](https://github.com/AkhilJx/Intrusion-Detection-System-Using-Deep-Convolutional-Neural-Network-and-Twilio/assets/78065413/1cfcf1ad-504c-464e-988f-a19ac90c75a8)
+
+3. Intimating the user via SMS
+
+![image](https://github.com/AkhilJx/Intrusion-Detection-System-Using-Deep-Convolutional-Neural-Network-and-Twilio/assets/78065413/24d4a664-9f4d-4016-800f-fe0c433abf20)
+
+4. Log file Output
+
+![image](https://github.com/AkhilJx/Intrusion-Detection-System-Using-Deep-Convolutional-Neural-Network-and-Twilio/assets/78065413/207b775a-a228-4e9b-a876-a8b6060ccf80)
