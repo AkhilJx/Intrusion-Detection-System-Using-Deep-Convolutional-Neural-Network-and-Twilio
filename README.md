@@ -41,6 +41,4 @@ classification is performed.
 
 
 4.Training and Model Building: 
-In the project we make use of CNN algorithm for model building Since CNN algorithm work fine with image files.  
-                          
-So, we make use of YoloV3 method in combination with darknet to build the model.   
+In the project we make use of CNN algorithm for model building Since CNN algorithm work fine with image files. So, we make use of YoloV3 method in combination with darknet to build the model.   
