@@ -66,3 +66,8 @@ The steps involved in the implementation are:
 6. After pre-processing of the camera captured image, a comparison of this frame with the model created is carried out. I.e., The system checks if matching is found or not.
 7. If matching is found, intimation to the concerned person about the animal is done. Else it continues from step 3.
 
+
+# Results
+
+1. Detecting Intruder (Bird)
+![image](https://github.com/AkhilJx/Intrusion-Detection-System-Using-Deep-Convolutional-Neural-Network-and-Twilio/assets/78065413/94c967ee-7eb2-483d-9a7f-c4be7a28f1b4)
