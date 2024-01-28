@@ -93,7 +93,6 @@ The account created will be a 30- day trial account which could be purchased lat
 ![image](https://github.com/AkhilJx/Intrusion-Detection-System-Using-Deep-Convolutional-Neural-Network-and-Twilio/assets/78065413/01b0ec07-d3f2-42da-a42f-95ff3112154e)
 
 
-![image](https://github.com/AkhilJx/Intrusion-Detection-System-Using-Deep-Convolutional-Neural-Network-and-Twilio/assets/78065413/1cec59c4-4316-477d-9927-7e5ee272c563)
 
 # Project Implementation
 
