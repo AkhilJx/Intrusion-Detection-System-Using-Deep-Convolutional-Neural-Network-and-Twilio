@@ -53,3 +53,5 @@ Once the CSV file is created, we can fetch the details of animals detected withi
 In this study, we have provided the user to choose from 3 timeline analyses namely date wise, month wise, and year wise statistics. 
 Based on the user selection, the user will get the details of the value counts of the intruder in the given timeline so that the user gets to know about the seasonal arrival of the intruder and the frequencies of their arrivals. 
 
+![image](https://github.com/AkhilJx/Intrusion-Detection-System-Using-Deep-Convolutional-Neural-Network-and-Twilio/assets/78065413/1cec59c4-4316-477d-9927-7e5ee272c563)
+
