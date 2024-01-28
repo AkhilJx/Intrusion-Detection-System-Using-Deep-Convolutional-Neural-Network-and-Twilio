@@ -8,6 +8,29 @@ Animal and bird intrusion in forest areas and crop fields is very common nowaday
 It is crucial to have a system that monitor animal/bird intrusion and report it to the forest offices / farmers at the earliest so that they can take the precautionary measures to save their assts in such a way that it doesn’t affect the intruders in any manner. 
 Hence, we would like to develop a system that detects the presence of intruder/intruders in live video from original scenarios and classifies what animal it is or whether it’s a bird. upon classification, it intimate the authorities via SMS and also plays a sound to keep the intruder away. It can be used for monitoring and reducing the human-animal conflicts.
 
+# Tools Used in the Project
+1. Programming language: Python 3.6 / Python 3.8
+
+2. Labelimg application: Labelimg is a free, open-source tool for graphically labeling images. It's written in Python and has a graphical user interface built with Qt. Annotations are saved as XML files in the PASCAL VOC format, which is the same format that ImageNet uses. It also supports the YOLO and CreateML file formats in its latest versions. In this project, we used labelimg as a pre-processing tool for the trained data. After performing on the labelimg app, we will get a text file for each image that contains the class/ label number and the relevant pixel values obtained after cropping the images to our requirement. The images along with their text files are compressed to zip file and are given as input to the system while training. Various versions of LabelImg applications are available on the internet, however we have used LabelImg_V1.8.0 as it supports yolo format that is required for our project.
+
+3. Working Environments: Python IDLE (Integrated Development and Learning Environment (Python 3.6.0) / Python 3.8.0)) or pycharm and Google Colab. The Python IDLE was used in this project as a working environment for testing purpose i.e. The testing codes were run on the Python IDLE platform. The Google colab was used in this project as a working environment for training purpose i.e. The training codes were executed on the google colab platform. In our project, for getting the weight file in training process we need continuous application of gpu support. 
+
+# Libraries Used:
+1. NumPy: to operate on the arrays.
+2. Argparse: used to incorporate the parsing of command line arguments. 
+3. Imutils: to make basic image processing functions such as translation, rotations, resizing, skeletonization, displaying matplotlib images, sorting contours, detecting edges and much easier with OpenCV.
+4. Time: used for accessing and representing time in the code
+5. Open-cv: used for image and video analysis. 
+6. Csv: used to write the detection details to the csv file.
+7. OS: used for interacting with the operating system.
+8. Glob: used to return all file paths that match a specific pattern.
+9. re: used to match strings of text such as particular characters, words, or patterns of characters.
+10. TensorFlow and Keras: for developing and evaluating deep learning models.
+11. Datetime: for fetching the timestamp of the detection.
+12. Twilio.rest: used for sending the alert to the user. This library in python helps the programmer to interact with the Twilio API interface through which the user gets the notification in the form of SMS.
+13. Pandas: used for data analysis. The data analysis is done based on the csv file created using the csv library.
+14. Playsound: Used to play the sound upon the detection of animal/bird. This library can play only .wav and .mp3 formats.
+
 # Project Architecture
 The proposed system provided in this project also has two phases. 
          1. The Training phase where the images are trained to get a model 
