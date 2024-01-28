@@ -125,3 +125,12 @@ The steps involved in the implementation are:
 ![image](https://github.com/AkhilJx/Intrusion-Detection-System-Using-Deep-Convolutional-Neural-Network-and-Twilio/assets/78065413/207b775a-a228-4e9b-a876-a8b6060ccf80)
 ![image](https://github.com/AkhilJx/Intrusion-Detection-System-Using-Deep-Convolutional-Neural-Network-and-Twilio/assets/78065413/f4710d03-63e9-446f-9bfb-2c109625010b)
 
+
+The weight file is nearly 250Mb file so it cant be uploaded to github. however u can access it through the link provided: https://drive.google.com/file/d/1TuclMHx5kr8UoQkNjW-P-AZqBIiz6Tkd/view 
+
+# Future Works
+Currently we have taken into consideration of only 9 animals and some general birds to the training set as it takes relatively a very long time and mandatory gpu is required to train these intruders. we can extend the model to specific birds and also add more animals to it as well. On doing so, the farmers can get to know specifically which bird is intruding and adapt individual strategies to flew them away. Similarly, the system could be modified with hardware support as well by using an Arduino or raspberry pi along with some cameras attached to it to fetch the input video. The proposed system could also be further extended to moving videos as well such that the hardware will be connected to a drone to fetch the live videos. On doing so, the system can continuously monitor across all the territories in the filed rather than concentrating on a single area.
+
+# NOTE: Any Suggestions / corrections in the project is warmly welcomed. can mail me @ akhiljx@gmail.com / kakhiljx@gmail.com.
+
+THANK YOU
