@@ -28,16 +28,19 @@ Suppresses the unwanted distortions or enhances some image features.
 
 There are basically 2 processes involved in pre-processing: 
                        
-	1. Mean Subtraction: Used to help combat illumination changes in the input images in our dataset. 
- Used to make sure all dataset images are in the same size before feeding to the algorithm.
+(i). Mean Subtraction: Used to help combat illumination changes in the input images in our dataset. Used to make sure all dataset images are in the same size before feeding to the algorithm.
                          
-			 2. Data Scaling or normalization: for making model data in a standard format so that the training is improved, accurate, and faster.
+(ii).Data Scaling or normalization: for making model data in a standard format so that the training is improved, accurate, and faster.
 
-3.Feature Extraction: * Focuses on identifying inherent features of the objects present within an image. 
+
+3.Feature Extraction: 
+Focuses on identifying inherent features of the objects present within an image. 
                       
-		      * These inherited features are then converted into pixel values later during training and then these pixel values are compared with the image pixel value (input) and based on this comparison 
+These inherited features are then converted into pixel values later during training and then these pixel values are compared with the image pixel value (input) and based on this comparison 
 classification is performed.
 
-4.Training and Model Building: * In the project we make use of CNN algorithm for model building Since CNN algorithm work fine with image files.  
+
+4.Training and Model Building: 
+In the project we make use of CNN algorithm for model building Since CNN algorithm work fine with image files.  
                           
-			       * So, we make use of YoloV3 method in combination with darknet to build the model.   
+So, we make use of YoloV3 method in combination with darknet to build the model.   
